@@ -1,0 +1,105 @@
+.box-work{
+    margin-bottom: 200px;
+}
+.box-work__title {
+    margin-bottom: 80px;
+    font-family: 'Fraunces ', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.box-work__list {
+    margin-bottom: 164px;
+    @include ul;
+    justify-content: space-between;
+
+}
+
+.box-work__span {
+    font-family: 'Fraunces ', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.box-work__box {
+    width: 285px;
+    height: 130px;
+}
+
+.box-work__strong3 {
+    margin-top: 38px;
+    margin-bottom: 48px;
+    font-family: 'Fraunces ', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    color: #333D4B;
+
+}
+
+.box-work__box>p {
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.box-work__link{
+    padding:  16px 31px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+}
+.box-work__link:hover {
+    background: #66D2CF;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+// active boganda black qildim chunki ichidegi yozuv korinmagan saban
+.box-work__link:active {
+    transition: .2s;
+    color: black;
+    background: #E2DEDB;
+    border-radius: 6px;
+}
+.box-work__wrapper{
+    display: inline-block;
+    margin-bottom: 82px
+}
+.dumalo-img1{
+    position: relative;
+    left: -954px;
+    top: 19px;
+}
+.dumalo-img2{
+    position: relative;
+    top: 19px;
+    right: 35px;
+}
+.dumalo-img3{
+    position: relative;
+    top: 19px;
+    right: 542px;
+}
+.box-work__span1{
+    position: relative;
+    margin-left: 7px;
+    padding: 0px 474px ;
+    border-bottom: 2px solid #FDD6BA;
+}

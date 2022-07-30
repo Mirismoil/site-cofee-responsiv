@@ -1,0 +1,99 @@
+
+.services-box{
+    position: relative;
+    margin-bottom: 200px;
+    height: 643px;
+    background-color: #282F38FF;
+}
+
+.box__text{
+    padding: 112px 370px 86px 370px;
+    text-align: center;
+}
+.box__text>h2{
+    margin-bottom: 32px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.box__text>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.wrapper-box__list{
+    top: 350px;
+    left: 75px;
+    position: absolute;
+    @include ul;
+    justify-content: space-between;
+}
+.wrapper-box__list>ul{
+    transition: .3s;
+    padding: 72px 48px 48px 48px;
+    margin-right: 30px;
+    list-style: none;
+    text-align: center;
+    width: 350px;
+    height: 382px;
+    text-align: center;
+    background: #0E8784;
+    border-radius: 8px;
+}
+.wrapper-box__list>ul:hover{
+    background: #FDD6BA;
+    border-radius: 8px;
+}
+.wrapper-box__list>ul:hover .box-list__img path{
+    fill: white;
+}
+.wrapper-box__list>ul:hover {
+    fill: white;
+}
+.wrapper-box__list>ul:active{
+    background: #F4F1EB;
+    border-radius: 8px;
+}
+.wrapper-box__list> ul:active .li__wrapper>h3 {
+    color: #FDD6BA;
+}
+.wrapper-box__list> ul:active .li__wrapper>p {
+    color: #FDD6BA;
+}
+.wrapper-box__list> ul:active .box-list__img path{
+    fill: #FDD6BA;
+}
+.box-list__img{
+    height: 72px;
+    margin-bottom: 56px;
+}
+.li__wrapper{
+    width: 255px;
+}
+.li__wrapper>h3{
+    padding-bottom: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.li__wrapper>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}

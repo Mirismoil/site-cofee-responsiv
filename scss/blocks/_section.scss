@@ -1,0 +1,43 @@
+
+.cooffee-collection{
+    padding: 86px 6px 200px;
+    
+}
+.collection-list{
+    background-image: url('../../imgs/ourcollect.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    @include ul;
+    justify-content: space-between;
+}
+.clollection-title{
+    margin-top: 136px;
+}
+.clollection-title>img{
+    margin-bottom: 71px;
+}
+.clollection-title + .clollection-title{
+    margin-left: 30px;
+}
+.title-wrapper{
+    width: 255px;
+}
+.title-wrapper>h2{
+    margin-bottom: 24px;
+    font-family: 'Fraunces', serif ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.title-wrapper>p{
+    margin-bottom: 188px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}

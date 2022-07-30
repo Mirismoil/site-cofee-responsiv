@@ -1,0 +1,131 @@
+.hero {
+  border-radius: 10px;
+  position: relative;
+  background-image: url("../../imgs/hero1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-box {
+  padding: 84px 62px 128px 105px;
+}
+
+.wrapper-box {
+  width: 538px;
+}
+
+.wrapper-box > h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.wrapper-box > p {
+  margin-bottom: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.hero-box__link {
+  padding: 15px 31px;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+}
+
+.hero-box__link:hover {
+  background: #66d2cf;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+// active boganda black qildim chunki ichidegi yozuv korinmagan saban
+.hero-box__link:active {
+  transition: 0.3s;
+  color: black;
+  background: #e2dedb;
+  border-radius: 6px;
+}
+@media only screen and(max-width:1131px) {
+  .hero-box {
+    padding: 50px 62px 128px 105px;
+  }
+}
+@media only screen and(max-width:1027px) {
+  .hero-box {
+    padding: 40px 62px 128px 105px;
+  }
+}
+@media only screen and(max-width:1009px) {
+  .hero {
+    background-image: url("../../imgs/heroresponsiv.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+@media only screen and(max-width:747px) {
+  .hero-box {
+    padding: 28px 62px 128px 105px;
+  }
+}
+@media only screen and(max-width:655px) {
+  .hero {
+    background-image: url("../../imgs/mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .wrapper-box > h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .wrapper-box {
+    width: 310px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .hero-box__link {
+    margin-left: 95px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 589px) {
+  .hero {
+    text-align: center;
+  }
+  .hero-box__link {
+    margin: 0px;
+  }
+  .wrapper-box > p {
+    margin-bottom: 36px;
+  }
+}
+@media only screen and(max-width:539px) {
+  .hero-box{
+    padding: 17px 48px 101px 38px;
+
+  }
+  .wrapper-box > p {
+    margin-bottom: 23px;
+  }
+}
+
+@media only screen and(max-width:445px){
+.hero-box{
+ padding: 17px 48px 101px 3px;
+}
+}
